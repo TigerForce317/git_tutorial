@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	let sum = 0;
+	for(let i=1; i<=10; i++){ //let 으로 선언한 i는 지역변수다
+		document.write("i = " + i + "<br/>");
+		sum += i;
+	}
+	//document.write("i = " + i + "<br/>"); //개발자도구 콘솔창에 에러발생
+	//let을 var로 바꾸면 잘나옴
+	document.write("<h1>1부터 10까지 합은 " + sum + "입니다.</h1>");
+</script>
+</body>
+</html>
